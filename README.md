@@ -6,16 +6,21 @@ Moya PluginType Cache
 配置文件在RequestConfig中
 已经默认的有
 /** 5分钟的cache过期时间 */
+
 public let kCacheOutdateTimeSeconds = 5 * 60
 
 /** 是否缓存 */
+
 public let kShouldCache             = true
 
 /** 线上线下标识*/
+
 public let kServiceIsOnline         = true
 
 /** 超时时间 */
+
 public let kRequestTimeoutInterval:TimeInterval  = 20
 
 /** 缓存数据最大条数 */
+
 public let kCacheCountMaxNumber     = 1000
